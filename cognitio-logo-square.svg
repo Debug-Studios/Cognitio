@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256px"
+   height="256px"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:export-filename="C:\Users\Prajjwal Dimri\Downloads\Cognitio\cognition-logo-square-no-text.png"
+   inkscape:export-xdpi="1536"
+   inkscape:export-ydpi="1536"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="cognitio-logo-square.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="79.146963"
+     inkscape:cy="130.5768"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true" />
+  <defs
+     id="defs863">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1478">
+      <stop
+         style="stop-color:#1d8773;stop-opacity:1;"
+         offset="0"
+         id="stop1474" />
+      <stop
+         style="stop-color:#1d8773;stop-opacity:0;"
+         offset="1"
+         id="stop1476" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1478"
+       id="linearGradient1480"
+       x1="0.07421875"
+       y1="226.10352"
+       x2="253.88281"
+       y2="226.10352"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata866">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="layer1-7"
+       transform="matrix(0.25046073,0,0,0.25046073,-0.37015283,-3.2093596)">
+      <g
+         id="g2134">
+        <path
+           id="path2098"
+           d="M 438.03231,331.80148 73.805232,961.85343 H 951.11217 L 1022.4526,838.28829 H 294.96008 L 513.13062,460.40581 Z"
+           style="fill:#c7eba3;fill-opacity:1;stroke:none;stroke-width:3.78834987px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path2100"
+           d="m 367.67689,712.03769 432.93448,1.7427 L 437.48663,84.829898 584.62686,82.175195 1022.4526,838.28829 292.48402,837.85114 Z"
+           style="fill:#1d8773;fill-opacity:1;stroke:none;stroke-width:3.77234483px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path2102"
+           d="M 657.78915,713.24809 438.03231,331.80148 73.805232,961.85343 3.3280962,836.81463 437.48663,84.829898 800.61137,713.78039 Z"
+           style="fill:#67be8f;fill-opacity:1;stroke:none;stroke-width:3.78834987px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
