@@ -1,0 +1,55 @@
+{
+  "name": "cognitio",
+  "version": "1.0.0",
+  "description": "Website for Tech Fest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debug-Studios/Cognitio.git"
+  },
+  "author": "Ayush Bahuguna, Ayush Pant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Debug-Studios/Cognitio/issues"
+  },
+  "homepage": "https://github.com/Debug-Studios/Cognitio#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.18.1",
+    "eslint-config-semistandard": "^12.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gifsicle": "^3.0.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-html": "^0.4.7",
+    "gulp-htmlclean": "^2.7.20",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jpegtran-bin": "^3.2.0",
+    "node-sass": "^4.7.2",
+    "optipng-bin": "^4.0.0",
+    "svgo": "^1.0.5"
+  },
+  "dependencies": {
+    "gulp-scss": "^1.4.0"
+  }
+}
