@@ -1,1 +1,1 @@
-# Cognitio
+# This branch contains all the documents related to the technical fest.
