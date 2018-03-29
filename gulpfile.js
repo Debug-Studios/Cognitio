@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const html = require('gulp-html')
+const html = require('gulp-html');
 const htmlclean = require('gulp-htmlclean');
 const imagemin = require('gulp-imagemin');
 const imageresize = require('gulp-image-resize');
@@ -13,7 +13,7 @@ const babel = require('gulp-babel');
 gulp.task('html', function(){
     return gulp
         .src('./src/views/*.html')
-        .pipe(html())
+        .pipe(htmlclean())
         .pipe(gulp.dest('./'));
 });
 
