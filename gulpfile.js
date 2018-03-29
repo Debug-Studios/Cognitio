@@ -45,7 +45,6 @@ gulp.task('scss', function () {
         imageresize({
           width: 900,
           height: 600,
-          crop: true
         })
       )
       .pipe(
