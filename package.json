@@ -50,6 +50,7 @@
     "svgo": "^1.0.5"
   },
   "dependencies": {
-    "gulp-scss": "^1.4.0"
+    "gulp-scss": "^1.4.0",
+    "jshint": "^2.9.5"
   }
 }
