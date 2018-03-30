@@ -1,6 +1,21 @@
 @import "_color.scss";
-*{
+
+
+.hero{
+    background-color: $moss_river_black;
+}
+
+.container{
     padding: 0px;
 }
+
+.footer{
+    background-color: $ruby_grapefruit;
+    padding: 0px;
+    color: #fff;
+}
+
+
+
 
 
