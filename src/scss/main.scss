@@ -1,9 +1,7 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
 @import "_color.scss";
-*{
-    padding: 0px;
-}
 
+// Initial Bulma settings
 
-.hero{
-    background-color: $moss_river_black;
-}
+@import "../../node_modules/bulma/bulma";
