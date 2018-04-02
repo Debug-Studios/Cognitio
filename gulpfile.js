@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const html = require('gulp-html');
+const pug = require('gulp-pug');
 const htmlclean = require('gulp-htmlclean');
 const imagemin = require('gulp-imagemin');
 const imageresize = require('gulp-image-resize');
@@ -10,10 +10,10 @@ const autoprefixer = require('autoprefixer');
 const uglify = require('gulp-uglify');
 const babel = require('gulp-babel');
 
-gulp.task('html', function(){
+gulp.task('pug', function(){
     return gulp
-        .src('./src/views/*.html')
-        .pipe(htmlclean())
+        .src('./src/views/*.pug')
+        .pipe(pug())
         .pipe(gulp.dest('./'));
 });
 
@@ -61,8 +61,8 @@ gulp.task('scss', function () {
     gulp.watch('./src/js/*.js', ['js']);
     gulp.watch('./src/scss/*.scss', ['scss']);
     gulp.watch('./src/images/*', ['images']);
-    gulp.watch('./src/views/*.html', ['html']);
+    gulp.watch('./src/views/*.pug', ['pug']);
   });
   
-  gulp.task('default', ['html', 'scss', 'js', 'images']);
+  gulp.task('default', ['pug', 'scss', 'js', 'images']);
   
