@@ -769,9 +769,9 @@
      inkscape:window-height="1000"
      id="namedview5498"
      showgrid="false"
-     inkscape:zoom="2.8271407"
-     inkscape:cx="347.08779"
-     inkscape:cy="818.50806"
+     inkscape:zoom="0.99954518"
+     inkscape:cx="434.61593"
+     inkscape:cy="583.33038"
      inkscape:window-x="0"
      inkscape:window-y="42"
      inkscape:window-maximized="1"
@@ -801,7 +801,7 @@
              width="1" /></g></g></g></g></g><path
    inkscape:connector-curvature="0"
    id="path5564"
-   style="fill:#00a463;fill-opacity:0.96078432;fill-rule:nonzero;stroke:none;stroke-width:0.1"
+   style="fill:#000000;fill-opacity:0.96078432;fill-rule:nonzero;stroke:none;stroke-width:0.1"
    d="m 57.8824,176.839 h 322.079 V 682.105 H 57.8824 Z" /><g
    id="g5566"
    transform="scale(0.1)"><g
@@ -1352,15 +1352,15 @@
    d="m 218.885,399.447 c -27.077,0 -49.106,-22.03 -49.106,-49.11 0,-27.077 22.029,-49.108 49.106,-49.108 27.08,0 49.109,22.031 49.109,49.108 0,27.08 -22.029,49.11 -49.109,49.11 z m 0,-108.826 c -32.929,0 -59.714,26.788 -59.714,59.716 0,32.928 26.785,59.716 59.714,59.716 32.927,0 59.715,-26.788 59.715,-59.716 0,-32.928 -26.788,-59.716 -59.715,-59.716" /><path
    inkscape:connector-curvature="0"
    id="path6322"
-   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
+   style="fill:#eac113;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
    d="m 295.756,350.337 h -1 c 0,-20.955 -8.489,-39.916 -22.22,-53.65 -13.733,-13.731 -32.694,-22.222 -53.651,-22.222 -20.954,0 -39.917,8.491 -53.651,22.222 -13.732,13.734 -22.223,32.695 -22.224,53.65 0.001,20.956 8.492,39.918 22.224,53.651 13.734,13.731 32.697,22.221 53.651,22.221 20.957,0 39.918,-8.49 53.651,-22.221 13.731,-13.733 22.22,-32.695 22.22,-53.651 h 1 1 c 0,43.01 -34.859,77.872 -77.871,77.872 -43.007,0 -77.874,-34.861 -77.875,-77.872 0.001,-43.008 34.868,-77.871 77.875,-77.872 43.012,0.001 77.871,34.864 77.871,77.872 h -1" /><path
    inkscape:connector-curvature="0"
    id="path6336"
-   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
+   style="fill:#e8a615;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
    d="m 218.922,263.156 c -47.946,0 -86.952,39.008 -86.952,86.953 0,47.947 39.006,86.953 86.952,86.953 11.816,0 23.268,-2.329 34.044,-6.918 l -0.567,-1.332 c -10.597,4.515 -21.859,6.802 -33.477,6.802 -47.147,0 -85.505,-38.355 -85.505,-85.505 0,-47.148 38.358,-85.505 85.505,-85.505 21.413,0 41.901,7.949 57.688,22.388 l 0.975,-1.065 c -16.057,-14.684 -36.888,-22.771 -58.663,-22.771" /><path
    inkscape:connector-curvature="0"
    id="path6338"
-   style="fill:#00b0c5;fill-opacity:0.78823531;fill-rule:nonzero;stroke:none;stroke-width:0.1"
+   style="fill:#eac113;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1"
    d="m 221.621,253.646 -0.038,1.449 c 51.807,1.423 92.391,43.159 92.391,95.014 0,52.412 -42.642,95.051 -95.052,95.051 -52.41,0 -95.052,-42.639 -95.052,-95.051 l 0.002,-0.9 -1.443,-0.011 -0.006,0.911 c 0,53.208 43.291,96.498 96.499,96.498 53.208,0 96.499,-43.29 96.499,-96.498 0,-25.305 -9.727,-49.222 -27.386,-67.343 -17.622,-18.085 -41.209,-28.425 -66.414,-29.12" /><g
    id="g6472"
    transform="scale(0.1)"><g
@@ -2462,6 +2462,7 @@
    id="tspan10468">DIMRI</tspan></tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c6eaeb;fill-opacity:0.94509804;stroke:none;stroke-width:0.75"
@@ -2474,6 +2475,7 @@
      x="105.05461"
      y="-471.2171"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:11.25px;writing-mode:lr-tb;text-anchor:start;fill:#c6eaeb;fill-opacity:0.94509804;stroke-width:0.75">CORE TEAM</tspan></text>
+
 
 
 <g
@@ -2615,6 +2617,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0.75px;writing-mode:lr-tb;text-anchor:start;fill:#6b6c6e;fill-opacity:1;stroke-width:0.75">Computer Science and Engineering</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.99999976px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#6b6c6e;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -2628,6 +2631,7 @@
      y="-183.79689"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:1.125px;writing-mode:lr-tb;text-anchor:start;fill:#6b6c6e;fill-opacity:1;stroke-width:0.75">Institute Of Technology, Gopeshwar</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fffbf7;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -2640,5 +2644,6 @@
      x="123.39152"
      y="-636.70782"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ananda Namaste';-inkscape-font-specification:'Ananda Namaste';fill:#fffbf7;fill-opacity:1;stroke-width:0.75">Abhiyantrikotsav 2K18</tspan></text>
+
 
 </g></svg>
