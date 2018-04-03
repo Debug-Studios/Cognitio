@@ -23,6 +23,11 @@
   &__social {
     display: flex;
     align-items: center;
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+    }
   }
 
   &__coordinators {
