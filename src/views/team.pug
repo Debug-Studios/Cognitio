@@ -14,200 +14,54 @@ section.team
       .column.is-12
         h2.team__coordinators-heading.has-text-centered.is-size-2.has-text-white.has-text-weight-light Coordinators
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Varun Prabhakar
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Technical Coordinator
-          .team__coordinators-social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        mixin team_profile(name, designation, profileImage)
+          .team__profile
+            figure.image.is-128x128
+              img(src=profileImage)
+            h3.has-text-centered.is-size-4.has-text-white=name
+            h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light=designation
+            .team__coordinators-social
+              a(href=attributes.firstSocialLink)
+                span.icon.is-large.has-text-info
+                  i.fa-2x(class=attributes.firstSocial)
+              a(href=attributes.secondSocialLink)
+                span.icon.is-large.has-text-primary
+                  i.fa-2x(class=attributes.secondSocial)
+              a(href=attributes.thirdSocialLink)
+                span.icon.is-large.has-text-link
+                  i.fa-2x(class=attributes.thirdSocial)
+
+        +team_profile('Varun Prabhakar', 'Technical Coordinator', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Abhigna
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Cultural Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Abhigna Bhatt', 'Cultural Coordinator', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Ajay Gairolla
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Sports Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Ajay Gairolla', 'Sports Coordinator', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
+
     .team__coordinators.columns.is-multiline.is-centered
       .column.is-12
-        h2.team__coordinators-heading.has-text-centered.is-size-2.has-text-white.has-text-weight-light(style='margin-top: 4rem;') CORE Team
+        h2.team__coordinators-heading.has-text-centered.is-size-2.has-text-white.has-text-weight-light(style='margin: 4rem 0;') CORE Team
+        +team_profile('Prajjwal Dimri', 'Student Coordinator', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-github', secondSocial='fas fa-globe', thirdSocial='fab fa-twitter', firstSocialLink='https://github.com/prajjwaldimri', secondSocialLink='https://prajjwaldimri.me', thirdSocialLink='https://twitter.com/prajjwaldimri')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Prajjwal Dimri
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Chief Designer
-          .team__coordinators-social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-github
-            span.icon.is-large.has-text-primary
-              i.fas.fa-2x.fa-globe
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Ayush Bahuguna', 'Designer', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-github', secondSocial='fab fa-telegram', thirdSocial='fab fa-twitter', firstSocialLink='https://github.com/ayushbahuguna', secondSocialLink='https://t.me/ayushbahuguna', thirdSocialLink='https://twitter.com/Bahuguna12Ayush')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Ayush Bahuguna
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Chief Designer
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-github
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-twitter
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Arpit Kapoor', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Ayush Pant
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Akshita Chaurasiya', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Akshita Chaurasiya
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Ayush Pant', 'Designer', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Preeti Patel
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Meenakshi Bijalwan', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Priyanka Negi
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Preeti Patel', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Arpit Kapoor
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Shubham Rawat', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Deepak Chamoli
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Rajesh Sharma', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Ankit Joshi
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Priyanka Negi', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Rajesh Sharma
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Deepak Chamoli', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Shubham Rawat
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Ankit Joshi', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
       .column.is-3
-        .team__profile
-          figure.image.is-128x128
-            img(src='https://bulma.io/images/placeholders/256x256.png')
-          h3.has-text-centered.is-size-4.has-text-white Vishutosh Jayant
-          h4.has-text-centered.is-size-5.has-text-white.has-text-weight-light Student Coordinator
-          .team__social
-            span.icon.is-large.has-text-info
-              i.fab.fa-2x.fa-facebook
-            span.icon.is-large.has-text-primary
-              i.fab.fa-2x.fa-instagram
-            span.icon.is-large.has-text-link
-              i.fab.fa-2x.fa-telegram
+        +team_profile('Vishutosh Jayant', 'Team Member', 'https://bulma.io/images/placeholders/256x256.png')(firstSocial='fab fa-facebook', secondSocial='fab fa-instagram', thirdSocial='fab fa-twitter', firstSocialLink='#', secondSocialLink='#', thirdSocialLink='#')
