@@ -1,22 +1,17 @@
-.cognitio {
-    height: 80vh;
-    background-color: $primary;
+#cognitio_section{
+   
+    background: linear-gradient(to right, rgba($primary,.95), rgba($primary,.40));
 }
 
-.pakhi {
-    height: 80vh;
-    background-color: $dark;
-
-    &__heading{
-        color: #fff;
-    }
+#pakhi_section{
+    
+    background: linear-gradient(to left, rgba(0,148,50,.95), rgba(0,148,50,.0));
 }
 
-.enthusia {
-    height: 80vh;
-    background-color: $primary;
+#enthusia_section{
+    
+    background: linear-gradient(to right, rgba(18,203,196,.95), rgba(18,203,196,.0));
 }
-
 .footer {
     padding: 10px;
 }
