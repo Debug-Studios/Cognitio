@@ -53,6 +53,7 @@
   "dependencies": {
     "gulp-pug": "^3.3.0",
     "gulp-scss": "^1.4.0",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "pug": "^2.0.3"
   }
 }

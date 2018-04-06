@@ -1,18 +1,22 @@
-.cognitio {
-    height: 80vh;
-    background-color: $primary;
-}
-
-.pakhi {
-    height: 80vh;
+.fest{
     background-color: $dark;
+    min-height: 100vh;
 
-    &__heading{
-        color: #fff;
-    }
+}
+#cognitio_section{
+   
+    background: linear-gradient(to right, rgba($cognitio_2,.95), rgba($cognitio_2,.40));
 }
 
-.enthusia {
-    height: 80vh;
-    background-color: $primary;
+#pakhi_section{
+    
+    background: linear-gradient(to left, rgba($pakhi_6,.95), rgba($pakhi_6,.40));
+}
+
+#enthusia_section{
+    
+    background: linear-gradient(to right, rgba($enthusia_5,.95), rgba($enthusia_5,.40));
+}
+.footer {
+    padding: 10px;
 }
