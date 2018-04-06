@@ -1,22 +1,26 @@
-.fest{
-    background-color: $dark;
-    min-height: 100vh;
+#cognitio {
+  background-color: rgba($cognitio_2, 0.5);
+  transition: all 1s;
 
-}
-#cognitio_section{
-   
-    background: linear-gradient(to right, rgba($cognitio_2,.95), rgba($cognitio_2,.40));
-}
-
-#pakhi_section{
-    
-    background: linear-gradient(to left, rgba($pakhi_6,.95), rgba($pakhi_6,.40));
+  &:hover {
+    background-color: rgba($cognitio_2, 0.9);
+  }
 }
 
-#enthusia_section{
-    
-    background: linear-gradient(to right, rgba($enthusia_5,.95), rgba($enthusia_5,.40));
+#paakhi {
+  background-color: rgba($pakhi_7, 0.5);
+  transition: all 1s;
+
+  &:hover {
+    background-color: rgba($pakhi_7, 0.9);
+  }
 }
-.footer {
-    padding: 10px;
+
+#enthusia {
+  background-color: rgba($enthusia_2, 0.5);
+  transition: all 1s;
+
+  &:hover {
+    background-color: rgba($enthusia_2, 0.9);
+  }
 }
