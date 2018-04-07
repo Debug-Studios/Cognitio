@@ -8,7 +8,8 @@ head
   script(defer='' src='https://use.fontawesome.com/releases/v5.0.6/js/all.js')
 
 body
-  section.hero.is-dark.is-bold.is-large
+  section.hero.is-dark.is-medium
+    // Hero head: will stick at the top
     .hero-head
       header.navbar
         .container
@@ -20,52 +21,29 @@ body
                 | Pakhi
               a.navbar-item(href='#enthusia_section')
                 | Enthusia
-              a.navbar-item(href='#enthusia_section')
-                | Udhyamshala
               a.navbar-item(href='#')
                 | About Us
-    .hero-body#main_body
+    // Hero content: will be in the middle
+    .hero-body
       .container.has-text-centered
-        h1.title  
-          | Abhiyantrikotsav
-        h2.subtitle
-          | 2018
+        h1.is-size-1 ABHIYANTRIKOTSAV
+        h2.subtitle The annual engineering festival of I.T. Gopeshwar
 
-      
-  section#cognitio_section.hero.is-medium
-    .hero-body
-      .container.has-text-left
-        h1.title
-          |COGNITIO
-        h2.subtitle
-          | A Technical Fest
-      
-      
-     
-  section#pakhi_section.hero.is-medium
-    .hero-body
-      .container.has-text-right
-        h1.title.pakhi__heading
-          |PAKHI
-        h2.subtitle.pakhi__heading
-          | A Cultural Fest
-      
-      
-      
-  section#enthusia_section.hero.is-medium
-    .hero-body
-      .container.has-text-left
-        h1.title
-          |ENTHUSIA
-        h2.subtitle
-          | A Sports Fest
+        a.button.is-light Know More
 
-  footer.footer.is-dark.is-bold
-    .container
-      .content.has-text-centered  
-        p
-          strong Designed By
-            |  Debug Studios
-
-      
-  
+    section.all-fests.columns.is-gapless
+      .column
+        section.hero.is-small#cognitio
+          .hero-body
+            .has-text-centered
+              h1.title Cognitio
+      .column
+        section.hero.is-small#paakhi
+          .hero-body
+            .has-text-centered
+              h1.title Paakhi
+      .column
+        section.hero.is-small#enthusia
+          .hero-body
+            .has-text-centered
+              h1.title Enthusia
