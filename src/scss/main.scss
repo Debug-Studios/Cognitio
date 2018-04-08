@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Audiowide|Dekko|Righteous");
+@font-face {
+  font-family: "anandanamaste";
+  src: url("anandanamaste.ttf") format("truetype");
+}
+
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
 @import "../../node_modules/bulma/sass/utilities/functions";
 @import "_color.scss";
@@ -20,6 +24,4 @@ $success: $color_success;
 
 .fest {
   padding: 5rem;
-#main_body h1{
-  font-family: ananda-namaste;
 }
