@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Dekko|Righteous");
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
 @import "../../node_modules/bulma/sass/utilities/functions";
 @import "_color.scss";
@@ -9,7 +10,6 @@ $link: $color_info;
 $info: $color_info;
 $success: $color_success;
 
-
 @import "../../node_modules/bulma/bulma";
 @import "_team.scss";
 @import "_index.scss";
@@ -18,7 +18,6 @@ $success: $color_success;
   padding: 3rem;
 }
 
-.fest{
+.fest {
   padding: 5rem;
 }
-
