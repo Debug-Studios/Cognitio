@@ -6,11 +6,12 @@ head
   title Abhiyantrikotsav
   link(rel='stylesheet' href='./dist/css/main.css')
   script(defer='' src='https://use.fontawesome.com/releases/v5.0.6/js/all.js')
+  script(src='../../node_modules/particles.js/particles.js')
   // Fonts
   link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Dekko|Righteous")
 
 body
-  section.hero.is-dark.is-medium
+  section.hero.is-dark.is-medium#particles-js
     // Hero head: will stick at the top
     .hero-head
       header.navbar
@@ -52,3 +53,7 @@ body
             .has-text-centered
               h1.title.enthusia-font ENTHUSIA
               h2.subtitle A Sports Festival
+              
+script(src='../../node_modules/particles.js/demo/js/app.js')
+script.
+  particlesJS.load('particles-js', '../../node_modules/particles.js/particles.json');

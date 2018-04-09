@@ -54,6 +54,7 @@
     "gulp-pug": "^3.3.0",
     "gulp-scss": "^1.4.0",
     "jshint": "^2.9.5",
+    "particles.js": "^2.0.0",
     "pug": "^2.0.3"
   }
 }
