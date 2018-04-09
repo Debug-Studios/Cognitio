@@ -11,57 +11,51 @@ head
   link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Dekko|Righteous")
 
 body
-  #particles-js
-    section.hero.is-dark
-      // Hero head: will stick at the top
-      .hero-head
-        header.navbar
-          .container
-            #navbarMenuHeroC.navbar-menu
-              .navbar-end
-                a.navbar-item.is-active(href='#cognitio_section')
-                  | Brochure
-                a.navbar-item(href='#pakhi_section')
-                  | Events
-                a.navbar-item(href='#enthusia_section')
-                  | Schedule
-                a.navbar-item(href='team.html')
-                  | Teams
-                a.navbar-item(href='#')
-                  | About Us
-      // Hero content: will be in the middle
-      .hero-body#abhiyantrikotsav
-        .container.has-text-centered
-          h1.is-size-1.abhiyantrikotsav-font ABHIYANTRIKOTSAV
-          h2.subtitle The annual engineering festival of I.T. Gopeshwar
 
-          a.button.is-light Know More
+  section.hero.is-dark.is-medium
+    // Hero head: will stick at the top
+    .hero-head#particles-js
+      header.navbar
+        .container
+          #navbarMenuHeroC.navbar-menu
+            .navbar-end
+              a.navbar-item.is-active(href='#cognitio_section')
+                | Brochure
+              a.navbar-item(href='#pakhi_section')
+                | Events
+              a.navbar-item(href='#enthusia_section')
+                | Schedule
+              a.navbar-item(href='team.html')
+                | Teams
+              a.navbar-item(href='#')
+                | About Us
+    // Hero content: will be in the middle
+    .hero-body#abhiyantrikotsav
+      .container.has-text-centered
+        h1.is-size-1.abhiyantrikotsav-font ABHIYANTRIKOTSAV
+        h2.subtitle The annual engineering festival of I.T. Gopeshwar
 
-  section.all-fests.columns.is-gapless
+        a.button.is-light Know More
+
+  section.columns.is-gapless(style="margin-bottom: 0")
     .column
-      section.hero.is-small#cognitio
-        .hero-body
+      section.hero.is-small.is-dark#cognitio
+        .hero-body.flex-center
           a.has-text-centered(href="cognitio.html")
             h1.title.cognitio-font COGNITIO
             h2.subtitle A Technical Festival
     .column
-      section.hero.is-small#paakhi
-        .hero-body
+      section.hero.is-small.is-dark#paakhi
+        .hero-body.flex-center
           a.has-text-centered(href="pakhi.html")
             h1.title.paakhi-font पाखी
             h2.subtitle A Cultural Festival
     .column
-      section.hero.is-small#enthusia
-        .hero-body
+      section.hero.is-small.is-dark#enthusia
+        .hero-body.flex-center
           a.has-text-centered(href="enthusia.html")
             h1.title.enthusia-font ENTHUSIA
             h2.subtitle A Sports Festival
 
 script.
-  particlesJS.load('particles-js', './src/json/particles.json');
-
-            
-
-            
-
-
+  particlesJS.load('particles-js', '/src/json/particles.json');
