@@ -6,54 +6,60 @@ head
   title Abhiyantrikotsav
   link(rel='stylesheet' href='./dist/css/main.css')
   script(defer='' src='https://use.fontawesome.com/releases/v5.0.6/js/all.js')
-  script(src='../../node_modules/particles.js/particles.js')
+  script(src="./dist/js/particles.min.js")
   // Fonts
   link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Dekko|Righteous")
 
 body
-  section.hero.is-dark.is-medium#particles-js
-    // Hero head: will stick at the top
-    .hero-head
-      header.navbar
-        .container
-          #navbarMenuHeroC.navbar-menu
-            .navbar-end
-              a.navbar-item.is-active(href='#cognitio_section')
-                | Brochure
-              a.navbar-item(href='#pakhi_section')
-                | Events
-              a.navbar-item(href='#enthusia_section')
-                | Schedule
-              a.navbar-item(href='#')
-                | About Us
-    // Hero content: will be in the middle
-    .hero-body#abhiyantrikotsav
-      .container.has-text-centered
-        h1.is-size-1.abhiyantrikotsav-font ABHIYANTRIKOTSAV
-        h2.subtitle The annual engineering festival of I.T. Gopeshwar
+  #particles-js
+    section.hero.is-dark
+      // Hero head: will stick at the top
+      .hero-head
+        header.navbar
+          .container
+            #navbarMenuHeroC.navbar-menu
+              .navbar-end
+                a.navbar-item.is-active(href='#cognitio_section')
+                  | Brochure
+                a.navbar-item(href='#pakhi_section')
+                  | Events
+                a.navbar-item(href='#enthusia_section')
+                  | Schedule
+                a.navbar-item(href='#')
+                  | About Us
+      // Hero content: will be in the middle
+      .hero-body#abhiyantrikotsav
+        .container.has-text-centered
+          h1.is-size-1.abhiyantrikotsav-font ABHIYANTRIKOTSAV
+          h2.subtitle The annual engineering festival of I.T. Gopeshwar
 
-        a.button.is-light Know More
+          a.button.is-light Know More
 
-    section.all-fests.columns.is-gapless
-      .column
-        section.hero.is-small#cognitio
-          .hero-body
-            .has-text-centered
-              h1.title.cognitio-font COGNITIO
-              h2.subtitle A Technical Festival
-      .column
-        section.hero.is-small#paakhi
-          .hero-body
-            .has-text-centered
-              h1.title.paakhi-font पाखी
-              h2.subtitle A Cultural Festival
-      .column
-        section.hero.is-small#enthusia
-          .hero-body
-            .has-text-centered
-              h1.title.enthusia-font ENTHUSIA
-              h2.subtitle A Sports Festival
-              
-script(src='../../node_modules/particles.js/demo/js/app.js')
+  section.all-fests.columns.is-gapless
+    .column
+      section.hero.is-small#cognitio
+        .hero-body
+          .has-text-centered
+            h1.title.cognitio-font COGNITIO
+            h2.subtitle A Technical Festival
+    .column
+      section.hero.is-small#paakhi
+        .hero-body
+          .has-text-centered
+            h1.title.paakhi-font पाखी
+            h2.subtitle A Cultural Festival
+    .column
+      section.hero.is-small#enthusia
+        .hero-body
+          .has-text-centered
+            h1.title.enthusia-font ENTHUSIA
+            h2.subtitle A Sports Festival
+
 script.
-  particlesJS.load('particles-js', '../../node_modules/particles.js/particles.json');
+  particlesJS.load('particles-js', './src/json/particles.json');
+
+            
+
+            
+
+
