@@ -28,12 +28,10 @@ $success: $color_success;
 .fest {
   padding: 5rem;
 }
-#events-section{
-  padding: 2rem;
-}
+
 
 .accordion-full{
-  background-color: $enthusia_7;
+  background-color: $moss_river_black;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -46,7 +44,7 @@ $success: $color_success;
 }
 
 .accordion-half{
-background-color: $enthusia_7;
+background-color: $moss_river_black;
 color: #444;
 cursor: pointer;
 padding: 18px;
@@ -59,11 +57,11 @@ transition: 0.4s;
 }
 
 .active, .accordion-full:hover{
-background-color: $enthusia_6;
+background-color: $moss_river_black;
 }
 
 .active, .accordion-half:hover{
-background-color: $enthusia_6;
+background-color: $moss_river_black;
 }
 
 .accordion-full:after{
