@@ -1,9 +1,14 @@
 #cognitio-main {
-  background: linear-gradient(
-      to right,
-      rgba($cognitio_2, 0.9),
-      rgba($cognitio_2, 0.9)
-    ),
-    url(../img/pexels-photo-219101.jpeg);
-  background-size: cover;
-}
+    background: linear-gradient(
+        to right,
+        rgba($cognitio_2, 0.9),
+        rgba($cognitio_2, 0.9)
+      ),
+      url(../img/pexels-photo-219101.jpeg);
+    
+  }
+
+  #cognitio-events-section{
+    padding: 2rem;
+    background-color: $cognitio_2;
+  }
