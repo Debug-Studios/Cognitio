@@ -19,40 +19,70 @@ html
           h1.is-size-1.enthusia-font Enthusia
           h2.subtitle The Sports festival of I.T. Gopeshwar
 
-    section.hero.is-dark.is-medium 
+    section.hero.is-light.is-medium 
       .hero-body
         .container.has-text-centered
           h1.is-size-1.enthusia-font About Enthusia
     
-    section.hero.is-light.is-medium#enthusia-events-section
+    section.hero.is-dark.is-medium#enthusia-events-section
       .container.has-text-centered
-        h1.is-size-1.enthusia-font Events
+        h1.is-size-1.cognitio-font Events
       .columns(style="margin:1rem;")
         .column
-          button.accordion-full Volleyball
-          .panel
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          .card
+            header.card-header.accordion-full
+              p.card-header-title Volleyball
+              a.card-header-icon(aria-label="more-options")
+                span.icon
+                  i(class="fas fa-angle-down" aria-hidden="true")
+            .card-content.panel
+              .content
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+      .columns(style="margin:1rem;")
+        .column
+          .card
+            header.card-header.accordion-full
+              p.card-header-title Kabaddi
+              a.card-header-icon(aria-label="more-options")
+                span.icon
+                  i(class="fas fa-angle-down" aria-hidden="true")
+            .card-content.panel
+              .content
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+
+        .column
+            .card
+              header.card-header.accordion-full
+                p.card-header-title Chess
+                a.card-header-icon(aria-label="more-options")
+                  span.icon
+                    i(class="fas fa-angle-down" aria-hidden="true")
+              .card-content.panel
+                .content
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
       
+      .columns(style="margin:1rem;")
+        .column
+          .card
+            header.card-header.accordion-full
+              p.card-header-title Carrom
+              a.card-header-icon(aria-label="more-options")
+                span.icon
+                  i(class="fas fa-angle-down" aria-hidden="true")
+            .card-content.panel
+              .content
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
 
-      .columns.is-gapless(style="margin:2rem;")
-        .column.is-two-thirds
-          button.accordion-half Kabaddi
-          .panel-half
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        .column.is-two-thirds
-          button.accordion-half Arm Wrestling
-          .panel-half
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      .columns.is-gapless(style="margin:2rem;")
-        .column.is-two-thirds
-          button.accordion-half Chess
-          .panel-half
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        .column.is-two-thirds
-          button.accordion-half Carrom
-          .panel-half
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .column
+            .card
+              header.card-header.accordion-full
+                p.card-header-title Arm Wrestling
+                a.card-header-icon(aria-label="more-options")
+                  span.icon
+                    i(class="fas fa-angle-down" aria-hidden="true")
+              .card-content.panel
+                .content
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
   script(type="text/javascript" src="./dist/js/accordion.js")
       
 
