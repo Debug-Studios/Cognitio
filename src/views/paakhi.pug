@@ -26,35 +26,32 @@ html
           h1.is-size-1.paakhi-font पाखी
           h2.subtitle The Cultural festival of I.T. Gopeshwar
 
-    section.hero.is-dark.is-medium 
+    section.hero.is-dark.is-medium
       .hero-body
         .container.has-text-centered
           h1.is-size-1.paakhi-font About पाखी
-    
-    section.hero.is-light.is-medium#pakhi-events-section 
+
+    section.hero.is-light.is-medium#pakhi-events-section
+      mixin event(name, description)
+        .column
+          .card
+            header.card-header.accordion-full
+              p.card-header-title=name
+              a.card-header-icon(aria-label="more-options")
+                span.icon
+                  i(class="fas fa-angle-down" aria-hidden="true")
+            .card-content(style="padding: 2rem;")
+              .content
+                .columns
+                  .column
+                    p
+                      strong Description
+                    p=description
+
       .container.has-text-centered
         h1.is-size-1.paakhi-font Events
         .columns(style="margin:1rem;")
-          .column
-            .card
-              header.card-header.accordion-full
-                p.card-header-title Dancing
-                a.card-header-icon(aria-label="more-options")
-                  span.icon
-                    i(class="fas fa-angle-down" aria-hidden="true")
-              .card-content.panel
-                .content
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-
-          .column
-              .card
-                header.card-header.accordion-full
-                  p.card-header-title Dancing
-                  a.card-header-icon(aria-label="more-options")
-                    span.icon
-                      i(class="fas fa-angle-down" aria-hidden="true")
-                .card-content.panel
-                  .content
-                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+          +event("Dancing", "lorem")
+          +event("Dancing", "lorem")
 
   script(type="text/javascript" src="./dist/js/accordion.js")
