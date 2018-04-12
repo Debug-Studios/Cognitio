@@ -5,6 +5,27 @@
   z-index: 1;
 }
 
+#abhiyantrikotsav {
+  .title {
+    font-size: 5rem;
+    font-weight: normal;
+
+    @media (max-width: 800px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .subtitle {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    @media (max-width: 800px) {
+      font-size: 1.3rem;
+    }
+  }
+}
+
 #cognitio {
   background: linear-gradient(
       to right,
@@ -56,7 +77,6 @@
 
 .abhiyantrikotsav-font {
   font-family: "anandanamaste", sans-serif;
-  font-size: 5rem;
 }
 
 .flex-center {
