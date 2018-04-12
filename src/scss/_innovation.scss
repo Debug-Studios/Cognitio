@@ -14,8 +14,8 @@
 .kaavyansh {
   background: linear-gradient(
       to right,
-      rgba($pakhi_5, 0.8),
-      rgba($pakhi_5, 0.8)
+      rgba($pakhi_5, 0.9),
+      rgba($pakhi_5, 0.9)
     ),
     url(../img/letter.jpeg);
 
@@ -49,5 +49,16 @@
     letter-spacing: 1rem;
     font-family: "Covered By Your Grace", cursive;
     font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    padding-top: 2rem;
   }
 }
