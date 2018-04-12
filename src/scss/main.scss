@@ -20,6 +20,7 @@ $success: $color_success;
 @import "_cognitio.scss";
 @import "_pakhi.scss";
 @import "_enthusia.scss";
+@import "_innovation.scss";
 
 .team {
   padding: 3rem;
@@ -29,8 +30,7 @@ $success: $color_success;
   padding: 5rem;
 }
 
-
-.accordion-full{
+.accordion-full {
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -42,51 +42,51 @@ $success: $color_success;
   transition: 0.4s;
 }
 
-.accordion-half{
-cursor: pointer;
-padding: 18px;
-width: 50%;
-border: none;
-text-align: left;
-outline: none;
-font-size: 20px;
-transition: 0.4s;
+.accordion-half {
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
 }
 
-.active, .accordion-full:hover{
-background-color: #fff;
+.active,
+.accordion-full:hover {
+  background-color: #fff;
 }
 
-.active, .accordion-half:hover{
-background-color: #fff;
+.active,
+.accordion-half:hover {
+  background-color: #fff;
 }
 
-.accordion-full:after{
+.accordion-full:after {
   color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
-.accordion-half:after{
+.accordion-half:after {
   color: #777;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
-
-
-.panel{
+.panel {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.panel-half{
-padding: 0 18px;
-width: 50%;
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.2s ease-out;
+.panel-half {
+  padding: 0 18px;
+  width: 50%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
