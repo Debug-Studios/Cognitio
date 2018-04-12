@@ -1,12 +1,65 @@
-.innovation-font {
+.innovation {
   .title {
-    letter-spacing: 1rem;
+    letter-spacing: 0.5rem;
     font-size: 3rem;
-    font-weight: 500;
+    font-family: "Fredericka the Great", cursive;
+    font-weight: 400;
   }
   .subtitle {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
+  }
+}
+
+.kaavyansh {
+  background: linear-gradient(
+      to right,
+      rgba($pakhi_5, 0.9),
+      rgba($pakhi_5, 0.9)
+    ),
+    url(../img/letter.jpeg);
+
+  .title {
+    letter-spacing: 1rem;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+  }
+}
+
+.udhyamshaala {
+  background: linear-gradient(
+      to right,
+      rgba($pakhi_8, 0.9),
+      rgba($pakhi_8, 0.9)
+    ),
+    url(../img/pexels-photo-219101.jpeg);
+
+  .title {
+    letter-spacing: 1rem;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+    padding-top: 2rem;
   }
 }
