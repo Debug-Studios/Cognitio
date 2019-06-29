@@ -1,1 +1,1 @@
-# All design related material from cognitio 2019
+# This branch contains all the files related to design for Cognitio 2019. ;)
